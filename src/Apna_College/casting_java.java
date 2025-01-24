@@ -9,5 +9,7 @@ public class casting_java
         int fp = p + (int)18.02;
         System.out.println(fp);
         // this is thee  new casting
+        // this is the new teting
+
     }
 }
