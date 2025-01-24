@@ -8,5 +8,6 @@ public class casting_java
        // int fp = p + 18.00; // casting is required
         int fp = p + (int)18.02;
         System.out.println(fp);
+        // this is thee  new casting
     }
 }
