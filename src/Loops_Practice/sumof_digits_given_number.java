@@ -1,8 +1,8 @@
-package Patterns;
+package Loops_Practice;
 
 import java.util.Scanner;
 
-public class productof_digits_ofgiven_number
+public class sumof_digits_given_number
 {
     public static void main(String[] args)
     {
@@ -11,16 +11,15 @@ public class productof_digits_ofgiven_number
         int num = sc.nextInt();
         int numsum = 0;
         int count = 0;
-        int product = 1;
+        int sum = 0;
         while(num!=0)
-        {//12023
+        {
             numsum = num % 10;
-
-            product = product * numsum;
+            sum = sum + numsum;
             count++;
             num = num / 10;
         }
-        System.out.println("The product of digits of given number is "+product );
+        System.out.println("The sum of digits of given number is "+sum);
         System.out.println("Total number of digits in the number are "+count);
     }
 }

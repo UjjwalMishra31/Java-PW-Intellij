@@ -1,4 +1,4 @@
-package Patterns;
+package Loops_Practice;
 
 import java.util.Scanner;
 
